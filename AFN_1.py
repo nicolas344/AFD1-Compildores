@@ -20,5 +20,7 @@ while True:
 
     if dfa.accepts_input(input_str):
         print(f"'{input_str}' es aceptado por el DFA.")
+    elif input_str == "e":
+        print(f"The DFA accepts the string '{input_str}'")
     else:
         print(f"'{input_str}' no es aceptado por el DFA.")
