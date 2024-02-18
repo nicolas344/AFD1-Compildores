@@ -12,15 +12,16 @@ while True:
         initial_state='q0',
         final_states={'q0'}
     )
-    input_str = input("Ingrese una cadena para verificar si es aceptada por el DFA (o 'salir' para terminar): ")
+    input_str = input("Enter a string to check if it is accepted by the DFA (or 'exit' to quit): ")
 
-    if input_str.lower() == 'salir':
-        print("¡Hasta luego!")
+    if input_str.lower() == 'exit':
+        print("Goodbye!")
         break
 
     if dfa.accepts_input(input_str):
-        print(f"'{input_str}' es aceptado por el DFA.")
+        print(f"'{input_str}' is accepted by the DFA.")
     elif input_str == "e":
         print(f"The DFA accepts the string '{input_str}'")
     else:
-        print(f"'{input_str}' no es aceptado por el DFA.")
+        print(f"'{input_str}' is not accepted by the DFA.")
+
