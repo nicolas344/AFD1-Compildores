@@ -2,7 +2,7 @@ import random
 from automata.fa.dfa import DFA
 
 
-def generate_binary(length=7):
+def generate_binary(length=1000000):
     return ''.join(random.choice('01') for _ in range(length))
 
 
@@ -20,6 +20,6 @@ dfa1 = DFA(
 
 binary_string = generate_binary()
 if dfa1.accepts_input(binary_string):
-    print(f"The DFA accepts the string '{binary_string}'")
+    print(f"The DFA accepts the string")
 else:
-    print(f"The DFA rejects the string, so is not a multiple of three in binary '{binary_string}'")
+    print(f"The DFA rejects the string, so is not a multiple of three in binary")
