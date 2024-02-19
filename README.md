@@ -53,12 +53,12 @@ You can use the next zip
     '101011' is not accepted by the DFA
     ```
 ## AFD_2
-- It will automaty generate and string with 7 digits
-1. In case the binary number generated is a multiple of 3 in binary it will give you the next output
+- It will automaty generate and string with 1000000 of characters
+1. In case the binary string generated is a multiple of 3 in binary it will give you the next output
     ```bash
-    The DFA accepts the string '0011110'
+    The DFA accepts the string
     ```
-2. If in the case that the generated number is not a multiple of 3 in binary will give you the next output
+2. If in the case that the generated string is not a multiple of 3 in binary will give you the next output
     ```bash
-    The DFA rejects the string, so is not a multiple of three in binary '0011010'
+    The DFA rejects the string, so is not a multiple of three in binary
     ```
