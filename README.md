@@ -20,7 +20,7 @@ Follow these instructions to run the program:
 1. Dowload the program.
 
 You can use the next zip
-[AFD1-Compildores-master.zip](https://github.com/nicolas344/AFD1-Compildores/files/14320562/AFD1-Compildores-master.zip)
+[AFD1-Compildores-master (1).zip](https://github.com/nicolas344/AFD1-Compildores/files/14337610/AFD1-Compildores-master.1.zip)
 
 3. Make sure you have Python 3.8 or newer.
   
