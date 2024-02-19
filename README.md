@@ -7,7 +7,7 @@ Nicolas Rico Montesino
 
 [![Captura-de-pantalla-2024-02-17-181432.png](https://i.postimg.cc/Wb9S28sZ/Captura-de-pantalla-2024-02-17-181432.png)](https://postimg.cc/bst1gQDY)
 
-2. Random test: Implement a code that generates a random string in {0, 1} * with parameters size n and multiple-of-3.1s which takes a boolean value.
+2. Random test: Implement a code that generates a random string in {0, 1} * with parameters size n and multiple-of-3.1s. Test to determine if a string of 1000000 characters of 01s is a multiple of 3 in binary
 
 ## About
 - The program was executed on Windows OS.
